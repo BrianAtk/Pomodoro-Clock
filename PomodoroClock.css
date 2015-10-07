@@ -1,0 +1,60 @@
+h1 {
+  text-align: center;
+}
+
+article {
+  text-align: center;
+  background: rgb(173, 164, 164);
+  width: 300px;
+  height: 300px;
+  margin: 2em auto;
+  padding: 3em;
+  border-radius: 250px;
+}
+
+section {
+  align-content: center;
+}
+
+#clock {
+  font-size: 25px;
+  font-family: Arial, Arial, Helvetica, sans-serif margin: 0 auto;
+  margin-top: 10px;
+  color: #000000;
+  font-weight: bold;
+}
+
+#beginTimer {
+  margin-top: 30px;
+}
+
+button {
+  background: rgb(173, 164, 164);
+  border-radius: 50px;
+}
+
+.control {
+  align-content: center;
+  margin-top: 25px;
+  border-radius: 50px;
+}
+
+.bigButtons {
+  width: 80px;
+  
+}
+
+.break {
+  display: inline-block;
+  width: 40px
+}
+.sessionTime{
+  display: inline-block;
+  width: 40px
+}
+
+
+.littleButtons {
+  width: 30px;
+  height: 30px
+}
