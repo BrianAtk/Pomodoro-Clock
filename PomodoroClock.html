@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Pomodoro Clock</title>
+    <link href="css/PomodoroClock.css" rel="stylesheet" />
+</head>
+<body>
+    <h1>POMODORO CLOCK</h1>
+    <article>
+        <audio id="alarm" preload="auto" src="http://gravomaster.com/alarm/sounds/chime-mid.mp3">
+        </audio>
+        <audio id="alarm2" preload="auto" src="http://gravomaster.com/alarm/sounds/chime-low.mp3">
+        </audio>
+        <section id="beginButtons">
+            <button type="submit" id="beginTimer" class="bigButtons">Begin Timer</button>
+            <button type="submit" id="cancelTimer" class="bigButtons">Cancel Timer</button>
+            <button type="submit" id="resetTimer" class="bigButtons">Reset Timer</button>
+        </section>
+        <section>
+            <div id="break" class="control">BREAK LENGTH </div>
+            <button type="button" class="addBreak littleButtons">+</button>
+            <div class="break">5</div>
+            <button type="button" class="subBreak littleButtons">-</button>
+
+        </section>
+
+        <section>
+            <div id="Session" class="control">SESSION LENGTH</div>
+            <button type="button" class="addSession littleButtons">+</button>
+            <label class="sessionTime">25</label>
+            <button type="button" class="subSession littleButtons">-</button>
+        </section>
+
+
+        <div id="clock">
+            <span id="hours" class="digits">00</span>
+            <span class="digits">:</span>
+            <span id="minutes" class="digits">00</span>
+            <span class="digits">:</span>
+            <span id="seconds" class="digits">00</span>
+            <p><span id="message" class="message"></span></p>
+        </div>
+
+
+    </article>
+    <script src="Scripts/jquery-1.7.1.min.js"></script>
+    <script src="JavaScript/PomodoroClock.js"></script>
+</body>
+</html>
